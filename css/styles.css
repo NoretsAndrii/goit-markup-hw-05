@@ -403,7 +403,7 @@ textarea {
 
 .footer .container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .footer-logo-box {
@@ -412,7 +412,7 @@ textarea {
 
 .footer .logo {
   color: #4d5ae5;
-  display: inline-flex;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -529,7 +529,6 @@ textarea {
   border-radius: 4px;
   background-color: #fcfcfc;
   width: 408px;
-  height: 584px;
   padding: 24px;
 }
 
@@ -648,14 +647,11 @@ textarea {
 }
 
 .modal-form-checkbox {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateX(-100%);
+  display: none;
 }
 
 .checkbox-icon {
-  fill: #fcfcfc;
+  fill: transparent;
   margin-right: 8px;
 }
 
