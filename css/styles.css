@@ -452,6 +452,7 @@ textarea {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-subscribe-input {
@@ -466,7 +467,6 @@ textarea {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  margin-right: 24px;
 }
 
 .footer-subscribe-input::placeholder {
