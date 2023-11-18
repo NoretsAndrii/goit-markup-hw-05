@@ -517,9 +517,6 @@ textarea {
   visibility: hidden;
   pointer-events: none;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -537,6 +534,10 @@ textarea {
   background-color: #fcfcfc;
   width: 408px;
   padding: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal-form-button-close {
